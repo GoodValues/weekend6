@@ -14,5 +14,8 @@ public class ListMain {
         ListUtilities.display(list);
         list.add(50,2);
         ListUtilities.display(list);
+        System.out.println(list.get(5));
+        list.set(12, 5);
+        ListUtilities.display(list);
     }
 }

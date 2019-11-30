@@ -1,9 +1,16 @@
-package randomNumberObjectVersion;
-
-public class HumanNumber implements NumGenerator {
-
-    @Override
-    public int getNumber() {
-        return 0;
-    }
-}
+//package randomNumberObjectVersion;
+//
+//public class HumanNumber implements NumGenerator {
+//
+//    int number;
+//
+//    @Override
+//    public void setNumber(int number) {
+//        this.number=number;
+//    }
+//
+//    @Override
+//    public int getNumber() {
+//        return number;
+//    }
+//}

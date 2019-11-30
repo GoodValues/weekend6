@@ -18,9 +18,10 @@ public class FibCounter {
 
     }
     public int fibRec (int n) {
-        if (n==0 || n==1)
-            return n;
-        int tmp=fibRec(n-1) + fibRec(n-2);
-        return tmp;
+//        if (n==0 || n==1)
+//            return n;
+//        int tmp=fibRec(n-1) + fibRec(n-2);
+//        return tmp;
+        return n==0 || n==1? n : fibRec(n-1)+fibRec(n-2);
     }
 }

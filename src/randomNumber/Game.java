@@ -38,6 +38,8 @@ public class Game {
     public void computerGuess() {
         System.out.println("Graczu, podaj liczbę: ");
         int a=scanner.nextInt();
+        // checkRange(a); <--- ta funkcja mi nie wchodzi za dobrze, gdy wpiszę liczba spoza przedziału to po zmianie na poprawną zostawia tę spoza
+        System.out.println(a);
         System.out.println("Komputer próbuje zgadnąć, jaką liczbę wpisałeś...");
         int b;
 

@@ -55,12 +55,22 @@ public class LinkedList<T> implements IList<T> {
 
     @Override
     public T get(int index) {
-        return null;
+        checkGetBounds(index);
+        Node <T> tmp=firstNode;
+        for (int i = 0; i < index; i++) {
+            tmp=tmp.getNextNode();
+        }
+        return tmp.getValue();
     }
 
     @Override
     public void set(T value, int index) {
-
+        checkGetBounds(index);
+        Node <T> tmp=firstNode;
+        for (int i = 0; i < index; i++) {
+            tmp.getNextNode();
+        }
+        tmp.setValue(value);
     }
 
     @Override
